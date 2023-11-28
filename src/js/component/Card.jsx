@@ -5,7 +5,7 @@ const Card = () => {
 
     <div className="card h-100">
       
-      <img src="https://picsum.photos/500/325" className="card-img-top" alt="..." />
+      <img src="https://picsum.photos/500/326" className="card-img-top" alt="..." />
      
       <div className="card-body">
         <h5 className="card-title text-center">Card title</h5>

@@ -1,22 +1,79 @@
 import React from "react";
 
 const Card = () => {
+  
   return (
-
-    <div className="card h-100">
-      
-      <img src="https://picsum.photos/500/326" className="card-img-top" alt="..." />
-     
-      <div className="card-body">
-        <h5 className="card-title text-center">Card title</h5>
-        <p className="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-      </div>
-      
-      <div className="card-footer d-flex justify-content-center">
-        <button type="button" className="btn btn-primary button">Let's Go!</button>
+    <div className="container mx-auto px-5 mb-5">
+      <div className="row">
+        <div className="col-sm-3">
+          <div className="card">
+            <img
+              src="https://picsum.photos/500/325"
+              className="card-img-top"
+              alt="..."/>
+            <div className="card-body">
+              <h4 className="card-title text-black">Card title</h4>
+              <p className="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Dignissimos neque eos, deleniti pariatur harum quia.
+              </p>
+              <a href="#" className="btn btn-primary">Find Out More!</a>
+            </div>
+          </div>
+        </div>
+        <div className="col-sm-3">
+          <div className="card">
+            <img
+              src="https://picsum.photos/500/326"
+              className="card-img-top"
+              alt="..."
+            />
+            <div className="card-body">
+              <h4 className="card-title text-black">Card title</h4>
+              <p className="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dignissimos neque eos, deleniti pariatur harum quia.
+              </p>
+              <a href="#" className="btn btn-primary">Find Out More!</a>
+            </div>
+          </div>
+        </div>
+        <div className="col-sm-3">
+          <div className="card">
+            <img
+              src="https://picsum.photos/500/327"
+              className="card-img-top"
+              alt="..."
+            />
+            <div className="card-body">
+              <h4 className="card-title text-black">Card title</h4>
+              <p className="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Dignissimos neque eos, deleniti pariatur harum quia.
+              </p>
+              <a href="#" className="btn btn-primary">Find Out More!</a>
+            </div>
+          </div>
+        </div>
+        <div className="col-sm-3">
+          <div className="card">
+            <img
+              src="https://picsum.photos/500/328"
+              className="card-img-top"
+              alt="..."
+            />
+            <div className="card-body">
+              <h4 className="card-title text-black">Card title</h4>
+              <p className="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dignissimos neque eos, deleniti pariatur harum quia.
+              </p>
+              <a href="#" className="btn btn-primary">Find Out More!</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-
   );
 };
 

@@ -1,10 +1,11 @@
 import React from "react";
 import Navbar from "./Navbar.jsx";
 import Hero from "./Hero";
-import Footer from "./Footer";
 import Card from "./Card.jsx";
+import Footer from "./Footer";
 
-const Home = () => {
+const Home = () => 
+{
   return (
     <div>
       <Navbar />

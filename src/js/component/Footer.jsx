@@ -1,6 +1,7 @@
 import React from "react";
 
-const Footer = () => {
+const Footer = () => 
+{
   return (
     <footer className="navbar bg-dark mt-5">
       

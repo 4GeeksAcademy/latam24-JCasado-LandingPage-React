@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar.jsx";
-import Heather from "./Heather";
+import Hero from "./Hero";
 import Footer from "./Footer";
 import Card from "./Card.jsx";
 
@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <Heather />
+      <Hero />
       <Card />
       <Card />
       <Card />

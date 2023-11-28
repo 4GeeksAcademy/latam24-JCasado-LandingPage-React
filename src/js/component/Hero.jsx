@@ -1,6 +1,6 @@
 import React from "react";
 
-const Heather = () => {
+const Hero = () => {
   return (
     <div class="card">
       <div class="card-header">Featured</div>
@@ -17,4 +17,4 @@ const Heather = () => {
   );
 };
 
-export default Heather;
+export default Hero;

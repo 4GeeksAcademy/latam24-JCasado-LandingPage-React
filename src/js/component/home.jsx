@@ -1,35 +1,19 @@
 import React from "react";
-import Navbar from "./navbar.jsx";
-import Footer from "./footer";
-import Card from "./card.jsx";
+import Navbar from "./Navbar.jsx";
+import Footer from "./Footer";
+import Card from "./Card.jsx";
 
 const Home = () => {
   return (
-    
-	<div className=" container-fluid">
-      <div className="row">
-        <div className="col p-0">
-          <Navbar />
-        </div>
-      </div>
-      
-	  <div className="container-fluid w-75">
-        <div className="row">
-          <div className="col p-0">
-            <div className="container mt-2"></div>
+    <div>
+      <Navbar />
 
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-      
-	  </div>
-      
-	  <div className="row">
-        <div className="col p-0">
-          <Footer />
-        </div>
-      </div>
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+
+      <Footer />
     </div>
   );
 };

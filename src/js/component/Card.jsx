@@ -1,11 +1,11 @@
 import React from "react";
 
 const Card = () => {
-  
+
   return (
-    <div className="container mx-auto px-5 mb-5">
+    <div className="container mx-auto px-3 mb-3 ">
       <div className="row">
-        <div className="col-sm-3">
+        <div className="col-12 col-md-3">
           <div className="card">
             <img
               src="https://picsum.photos/500/325"
@@ -21,7 +21,7 @@ const Card = () => {
             </div>
           </div>
         </div>
-        <div className="col-sm-3">
+        <div className="col-12 col-md-3">
           <div className="card">
             <img
               src="https://picsum.photos/500/326"
@@ -38,7 +38,7 @@ const Card = () => {
             </div>
           </div>
         </div>
-        <div className="col-sm-3">
+        <div className="col-12 col-md-3">
           <div className="card">
             <img
               src="https://picsum.photos/500/327"
@@ -55,7 +55,7 @@ const Card = () => {
             </div>
           </div>
         </div>
-        <div className="col-sm-3">
+        <div className="col-12 col-md-3">
           <div className="card">
             <img
               src="https://picsum.photos/500/328"

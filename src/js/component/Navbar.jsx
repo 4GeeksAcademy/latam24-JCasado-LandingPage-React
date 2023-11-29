@@ -2,26 +2,52 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-dark p-0">
-      <div className="container-fluid navbar w-75">
-        <a className="navbar-brand text-end" style={{ color: 'white' }} href="#">START BOOTSTRAP</a>
-        
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div className="container">
+        <a className="navbar-brand navbar-text" href="#">
+          <span><strong>Start Bootstrap</strong></span>
+        </a>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span className="navbar-toggler-icon"></span>
         </button>
-        
-        <div className="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
-         
-          <div className="navbar-nav">
-            <a className="nav-link active" style={{ color: 'white' }} aria-current="page" href="#">Home</a>
-            <a className="nav-link" style={{ color: 'white' }} href="#">About</a>
-            <a className="nav-link" style={{ color: 'white' }} href="#">Service</a>
-            <a className="nav-link" style={{ color: 'white' }} href="#">Contact</a>
-          </div>
-        
+        <div
+          className="collapse navbar-collapse justify-content-lg-end"
+          id="navbarNav"
+        >
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <a className="nav-link" aria-current="page" href="#">
+                About
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" aria-current="page" href="#">
+                Services
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" aria-current="page" href="#">
+                Portfolio
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" aria-current="page" href="#">
+                Contact
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
-    </nav>)
+    </nav>
+  );
 };
 
 export default Navbar;
